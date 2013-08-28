@@ -5,7 +5,7 @@ https://support.cdmon.com/entries/24118056-API-de-actualización-de-IP-del-DNS-g
 
 How to use:
 ========================
-Configure your script options
+Configure your script options:
 ```php
 $user = 'yourUsername'; //username
 $pass = 'yourPassword'; //password
@@ -14,19 +14,19 @@ $retry_time = 30; // time to retry, on seconds
 $retry_attempts = 3; // number of attempts
 ```
 
-run from cli or from  your webserver
+Run from cli or from  your webserver:
 ```php
 php dynamicip.php
 ```
 
 To use mail log
 ========================
-Run: composer ( http://getcomposer.org/ )
+Run composer install ( http://getcomposer.org/ ):
 ```php
-php dynamicip.php
+composer install
 ```
 
-Uncomment require vendor autoload
+Uncomment require vendor autoload:
 ```php
 require 'vendor/autoload.php';
 ```
@@ -36,7 +36,7 @@ Set true $mail_log var
 $mail_log = true;
 ```
 
-Configure your mail options
+Configure your mail options:
 ```php
 $to  = 'to@example.com';
 $subject = 'Dinamic dns status';
@@ -45,7 +45,7 @@ $mail_log_success = true;
 $mail_log_fail = true;
 ```
 
-Configure your smtp settings
+Configure your smtp settings:
 ```php
 $mail_config['smtp'] = 'smtp.yourdomain.com';
 $mail_config['port'] = 25;
