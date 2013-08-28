@@ -53,6 +53,10 @@ $mail_config['username'] = 'smtpUser';
 $mail_config['password'] = 'smtpPassword';
 ```
 
+Crontab
+========================
+If you want to run the file from crontab, you can add to crontab a script like dynamicip.sh example, making sure your user have execute permission.
+
 License
 ========================
 Distributed under the MIT license: http://www.opensource.org/licenses/mit-license.php
