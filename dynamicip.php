@@ -131,13 +131,13 @@ while(!$result){
 				exit(1);
 			}
 		}
-		$result = false;
 	}
 
 	$retry++;
 	if($mail_log && $mail_log_fail){
 		MailLog ("UPDATE FAIL. Attempt(".$retry.") - ".date('d/m/Y H:i:s').": ".$result , $subject, $from, $to , $mail_config);
 	}
+	$result = false;
 	if($retry >= $retry_attempts){
 		exit(1);
 	}
