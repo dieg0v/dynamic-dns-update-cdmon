@@ -61,5 +61,5 @@ License
 ========================
 Distributed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
-Copyright (c) Diego Vilariño: http://www.ensegundoplano.com/ - http://www.sond3.com
+Copyright (c) Diego Vilariño: http://www.dieg0v.com/ - http://www.sond3.com
 
